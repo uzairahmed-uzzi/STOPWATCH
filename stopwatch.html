@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <style>
+        body {
+            background-color: black;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        #wrapper {
+            margin: 100px auto 0 auto;
+        }
+        
+        #heading>h1 {
+            width: 400px;
+        }
+        
+        h1 {
+            display: inline-block;
+            width: 100px;
+            background-color: white;
+        }
+        
+        h4 {
+            margin-top: -1px;
+            display: inline-block;
+            width: 100px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="heading">
+            <h1>STOP WATCH</h1>
+        </div>
+    </div>
+    <div id="watch">
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+        <br>
+        <h4>MINUTES </h4>
+        <h4>SECONDS </h4>
+        <h4>MILI SEC</h4>
+
+        <br><br>
+        <button id="start">START</button>
+        <button id="stop">STOP</button>
+        <button id="reset">RESET</button>
+        <button id="save">SAVE</button>
+
+    </div>
+    </div>
+</body>
+<script src="stopwatch.js"></script>
+
+</html>
